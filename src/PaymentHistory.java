@@ -10,7 +10,7 @@ public class PaymentHistory  {
     @Override
     public String toString(){
         return
-        "Method |" + method + "|" +
+        "Method |" + method + "|\n" +
         "Amount: " + amount + "$";
     }
 }
