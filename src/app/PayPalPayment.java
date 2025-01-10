@@ -1,3 +1,5 @@
+package app;
+
 public class PayPalPayment implements PaymentStrategy {
     String email;
     private double balance;

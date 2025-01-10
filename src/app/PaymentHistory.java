@@ -1,3 +1,5 @@
+package app;
+
 public class PaymentHistory  {
     private String method;
     private double amount;

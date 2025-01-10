@@ -1,3 +1,5 @@
+package app;
+
 public class CreditCardPayment implements PaymentStrategy {
 
     String cardNumber;

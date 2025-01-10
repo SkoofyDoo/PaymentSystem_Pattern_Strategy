@@ -1,3 +1,5 @@
+package app;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +34,7 @@ public class ShoppingCart {
         history.forEach(System.out::println);
 
         // oben ist die kürzere und elegantere Schreibweise
-//        for (PaymentHistory ph : history ){
+//        for (app.PaymentHistory ph : history ){
 //            System.out.println(ph);
 //        }
     }

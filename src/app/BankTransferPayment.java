@@ -1,3 +1,5 @@
+package app;
+
 public class BankTransferPayment implements PaymentStrategy{
     private String id;
     private double balance;

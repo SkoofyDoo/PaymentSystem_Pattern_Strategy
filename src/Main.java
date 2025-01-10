@@ -1,3 +1,7 @@
+import app.BankTransferPayment;
+import app.CreditCardPayment;
+import app.PayPalPayment;
+import app.ShoppingCart;
 
 public class Main {
 
