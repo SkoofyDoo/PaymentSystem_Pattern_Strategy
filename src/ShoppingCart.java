@@ -28,9 +28,13 @@ public class ShoppingCart {
 
     public void showHistory(){
         System.out.println("\nTransaktion history: ");
-        for (PaymentHistory ph : history ){
-            System.out.println(ph);
-        }
+        // alternative Schreibweise des Lambda-Ausdrucks
+        history.forEach(System.out::println);
+
+        // oben ist die kürzere und elegantere Schreibweise
+//        for (PaymentHistory ph : history ){
+//            System.out.println(ph);
+//        }
     }
 
 

@@ -19,5 +19,6 @@ public class BankTransferPayment implements PaymentStrategy{
     }
     public  String toString(){
         return "BankTransfer";
+
     }
 }
