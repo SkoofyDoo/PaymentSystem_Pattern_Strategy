@@ -12,6 +12,7 @@ public class ShoppingCart {
         this.strategy = strategy;
     }
 
+
     public void checkout(int amount) {
 
         if (strategy == null) {

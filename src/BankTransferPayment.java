@@ -17,4 +17,7 @@ public class BankTransferPayment implements PaymentStrategy{
             System.out.println("Zahlung fehlgeschlagen! Nicht genügend Guthaben");
         }
     }
+    public  String toString(){
+        return "BankTransfer";
+    }
 }
