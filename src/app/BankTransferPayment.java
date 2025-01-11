@@ -15,11 +15,12 @@ public class BankTransferPayment implements PaymentStrategy{
         if(balance >= amount){
             balance -= amount;
             System.out.println("Bezahlt: " + amount + "$ per BankTransfer \nNeues Guthaben: " + balance +"$");
+            
         } else {
             System.out.println("Zahlung fehlgeschlagen! Nicht genügend Guthaben");
         }
     }
-    public  String toString(){
+    public String toString(){
         return "BankTransfer";
 
     }
